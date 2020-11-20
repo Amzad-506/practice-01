@@ -18,7 +18,13 @@ public class Springdatajpa01Application {
 		eb.setCname("Amzad");
 		eb.setCnumber("9966332255");
 		bean.save(eb);
-		System.out.println("Record Inserted");
+		System.out.println("Amzad Record Inserted");
+		EntityBean eb1=new EntityBean();
+		eb1.setCid(103);
+		eb1.setCname("Azam");
+		eb1.setCnumber("9966355263");
+		bean.save(eb1);
+		System.out.println("Azam Record Inserted");
 	}
 
 }
