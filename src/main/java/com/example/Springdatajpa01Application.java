@@ -28,7 +28,7 @@ public class Springdatajpa01Application {
 		bean.save(eb1);
 		System.out.println("Amzad Basha Record Inserted");
     
-    EntityBean eb2=new EntityBEan();
+   	 	EntityBean eb2=new EntityBEan();
 		eb2.setCid(103);
 		eb2.setCname("Azam");
 		eb2.setCnumber("9966355263");
